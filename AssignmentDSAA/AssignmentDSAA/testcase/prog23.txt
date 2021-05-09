@@ -1,0 +1,8 @@
+Move R1, 1000A
+Jump 2A
+Store R1, 0.0000
+Load R2, R1
+CmpEQ R2, 0
+Output R2
+Jump 11A
+Halt

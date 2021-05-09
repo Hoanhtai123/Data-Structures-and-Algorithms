@@ -1,0 +1,3 @@
+Move R9, 0120
+Output R9
+Halt

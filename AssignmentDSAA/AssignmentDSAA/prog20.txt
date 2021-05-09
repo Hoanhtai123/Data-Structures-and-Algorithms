@@ -1,0 +1,6 @@
+Move R1, 1000A
+Store R1, false
+Load R2, 1000A
+CmpNE R2, true
+Output R2
+Halt

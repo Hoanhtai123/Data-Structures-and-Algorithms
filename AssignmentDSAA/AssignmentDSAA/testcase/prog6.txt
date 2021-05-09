@@ -1,0 +1,3 @@
+Move R16, 120
+Output R16
+Halt

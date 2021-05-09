@@ -1,0 +1,21 @@
+Call 2A
+Halt
+Move R2, 0A
+Store R2, 9
+Load R1, R2
+CmpEQ R1, 0
+JumpIf R1, 6A
+Load R1, R2
+Output R1
+Minus R1, 1
+Store R2, R1
+Add R1, 10
+Mul R1, 2
+Div R2, 5
+Output R2
+Minus R2, R1
+Output R1
+CmpGT R2, R1
+JumpIf R2, 3A
+Jump 5A
+Return

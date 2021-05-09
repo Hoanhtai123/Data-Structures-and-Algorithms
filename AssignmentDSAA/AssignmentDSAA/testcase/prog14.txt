@@ -1,0 +1,4 @@
+Move R13, 5
+CmpEQ R13, 5.0
+Output R13
+Halt

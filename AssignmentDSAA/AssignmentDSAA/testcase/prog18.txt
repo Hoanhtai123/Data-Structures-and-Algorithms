@@ -1,0 +1,9 @@
+Move R1, 1000
+Store R1, 120.05
+Load R2, R1
+Store R1, R2
+Load R2, R1
+CmpEQ R2, 120.0500
+Output R2
+Output R1
+Halt

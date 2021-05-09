@@ -1,0 +1,7 @@
+Move R1, 1000A
+Store R1, 120.0500
+Load R2, R1
+CmpEQ R2, 120.05000
+Output R2
+Output R1
+Halt

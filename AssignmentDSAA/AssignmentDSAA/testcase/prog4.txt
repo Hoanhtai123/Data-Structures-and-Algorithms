@@ -1,0 +1,3 @@
+Move R9, true
+Output R9
+Halt

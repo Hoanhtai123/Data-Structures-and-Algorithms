@@ -1,0 +1,5 @@
+Move R13, 120.001200
+Add R13, 000.002500
+CmpEQ R13, 120.003700
+Output R13
+Halt

@@ -1,0 +1,8 @@
+Move R1, 1000A
+Store R1, 120.05
+Load R2, 1000A
+Move R1, 500
+Store R1, R2
+Output R2
+Output R1
+Halt

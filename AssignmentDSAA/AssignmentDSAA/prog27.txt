@@ -1,0 +1,9 @@
+Jump 3A
+Add R3, R4
+Return
+Move R3, 200
+Move R4, 1050
+Move R1, 1A
+Call R1
+Output R3
+Halt

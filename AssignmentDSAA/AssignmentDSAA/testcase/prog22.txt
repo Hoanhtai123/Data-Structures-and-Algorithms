@@ -1,0 +1,6 @@
+Move R1, 1000A
+Jump 10A
+Load R2, 1000A
+CmpNE R2, true
+Output R2
+Halt

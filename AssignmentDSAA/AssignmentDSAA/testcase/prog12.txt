@@ -1,0 +1,5 @@
+Move R1, 0
+Output R1
+Jump 1A
+Halt
+Hi

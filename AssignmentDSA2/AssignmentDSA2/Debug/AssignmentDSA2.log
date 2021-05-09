@@ -1,0 +1,32 @@
+﻿  Cache.cpp
+E:\HK202\DSA\AssignmentDSA2\src\Cache.cpp(325,30): warning C4099: 'Node': type name first seen using 'class' now seen using 'struct'
+E:\HK202\DSA\AssignmentDSA2\src\Cache.h(6): message : see declaration of 'Node'
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+main.obj : warning LNK4006: "public: __thiscall Cache::~Cache(void)" (??1Cache@@QAE@XZ) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: void __thiscall Cache::DeleteCache(class Node *)" (?DeleteCache@Cache@@QAEXPAVNode@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: void __thiscall Cache::deQueue(void)" (?deQueue@Cache@@QAEXXZ) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "class Node * __cdecl deleteNode(class Node *,int)" (?deleteNode@@YAPAVNode@@PAV1@H@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: void __thiscall Cache::enQueue(class Elem *)" (?enQueue@Cache@@QAEXPAVElem@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: int __thiscall Cache::get(void)" (?get@Cache@@QAEHXZ) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "int __cdecl getBalance(class Node *)" (?getBalance@@YAHPAVNode@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "int __cdecl height(class Node *)" (?height@@YAHPAVNode@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: void __thiscall Cache::inOrder(void)" (?inOrder@Cache@@QAEXXZ) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "class Node * __cdecl insertNode(class Node *,class Elem * &)" (?insertNode@@YAPAVNode@@PAV1@AAPAVElem@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "class Node * __cdecl leftRotate(class Node *)" (?leftRotate@@YAPAVNode@@PAV1@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "int __cdecl max(int,int)" (?max@@YAHHH@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "class Node * __cdecl minValueNode(class Node *)" (?minValueNode@@YAPAVNode@@PAV1@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "class Node * __cdecl newNode(class Elem *)" (?newNode@@YAPAVNode@@PAVElem@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: class Elem * __thiscall Cache::pop(void)" (?pop@Cache@@QAEPAVElem@@XZ) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: void __thiscall Cache::preOrder(void)" (?preOrder@Cache@@QAEXXZ) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: void __thiscall Cache::print(void)" (?print@Cache@@QAEXXZ) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "void __cdecl printInorder(class Node *)" (?printInorder@@YAXPAVNode@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: void __thiscall Cache::printQ(void)" (?printQ@Cache@@QAEXXZ) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "void __cdecl printpreOrder(class Node *)" (?printpreOrder@@YAXPAVNode@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: class Elem * __thiscall Cache::put(int,class Data *)" (?put@Cache@@QAEPAVElem@@HPAVData@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: class Data * __thiscall Cache::read(int)" (?read@Cache@@QAEPAVData@@H@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "class Data * __cdecl read_AVL(class Node *,int)" (?read_AVL@@YAPAVData@@PAVNode@@H@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "class Node * __cdecl rightRotate(class Node *)" (?rightRotate@@YAPAVNode@@PAV1@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "public: class Elem * __thiscall Cache::write(int,class Data *)" (?write@Cache@@QAEPAVElem@@HPAVData@@@Z) already defined in Cache.obj; second definition ignored
+main.obj : warning LNK4006: "bool __cdecl write_AVL(class Node *,int,class Data *)" (?write_AVL@@YA_NPAVNode@@HPAVData@@@Z) already defined in Cache.obj; second definition ignored
+E:\HK202\DSA\AssignmentDSA2\AssignmentDSA2\Debug\AssignmentDSA2.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+  AssignmentDSA2.vcxproj -> E:\HK202\DSA\AssignmentDSA2\AssignmentDSA2\Debug\AssignmentDSA2.exe

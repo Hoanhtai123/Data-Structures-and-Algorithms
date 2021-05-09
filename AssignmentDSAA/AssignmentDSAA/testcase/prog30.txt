@@ -1,0 +1,6 @@
+Call 2A
+Call 5A
+Move R1, 0
+Output R1
+Return
+Halt

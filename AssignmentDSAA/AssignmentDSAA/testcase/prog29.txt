@@ -1,0 +1,23 @@
+Move R3, false
+Not R3
+Move R5, 10A
+Store R5, R3
+Move R3, 2.56
+Call 7A
+Mul R3, 5
+Move R2, 7
+Minus R2, 1
+CmpLT R2, R3
+JumpIf R2, 13A
+Move R3, 3.5
+Return
+Load R2, R5
+Not R2
+JumpIf R2, 20A
+Output R2
+Output R3
+Move R3, true
+Jump 1A
+Output R2
+Output R3
+Halt
